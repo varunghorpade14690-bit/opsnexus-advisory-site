@@ -7,52 +7,59 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav class="nav">
-    <div class="container">
-      <a class="brand" href="index.html">OpsNexus Advisory</a>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html"><strong>OpsNexus Advisory</strong><span>Enterprise Systems Studio</span></a>
       <ul class="nav-links">
-        <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="services.html">Services</a></li>
         <li><a href="careers.html">Careers</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-  </nav>
+  </header>
 
-  <section class="section">
-    <div class="container">
-      <h2>Service Lines</h2>
-      <div class="grid-3">
-        <article class="card">
-          <h3>System Analysis & Discovery</h3>
-          <ul class="bullets">
-            <li>Requirement Specification (RS) and Functional Specification (FS)</li>
-            <li>User story and acceptance criteria design</li>
-            <li>Gap analysis for legacy workflows</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Data & Integration Engineering</h3>
-          <ul class="bullets">
-            <li>SQL and database performance engineering</li>
-            <li>ETL/SSIS orchestration and validation</li>
-            <li>REST API integration contracts and testing</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>UAT, Go-Live & Support</h3>
-          <ul class="bullets">
-            <li>UAT planning and defect triage</li>
-            <li>Production cutover and rollback readiness</li>
-            <li>Post-go-live SLA and root cause stabilization</li>
-          </ul>
-        </article>
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Service Portfolio</h1>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-3">
+          <article class="card">
+            <h3>Discovery & System Analysis</h3>
+            <ul class="bullets">
+              <li>RS/FS documentation and business process decomposition</li>
+              <li>Feature prioritization with release trade-off analysis</li>
+              <li>Cross-team requirement validation for build readiness</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Data, SQL & Integration Delivery</h3>
+            <ul class="bullets">
+              <li>Data model review, SQL optimization, and root-cause diagnostics</li>
+              <li>API contract design, traceability, and dependency mapping</li>
+              <li>ETL/SSIS validation for migration and reporting integrity</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>UAT, Cutover & Production Stabilization</h3>
+            <ul class="bullets">
+              <li>UAT governance, defect triage, and quality gate control</li>
+              <li>Go-live sequencing, rollback planning, and SLA governance</li>
+              <li>Post-release performance and incident stabilization cycles</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2026 OpsNexus Advisory Ltd. All rights reserved.</p>
+      <p>&copy; 2026 OpsNexus Advisory Ltd. Enterprise Systems Studio.</p>
     </div>
   </footer>
 </body>
