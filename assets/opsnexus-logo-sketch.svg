@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="140" viewBox="0 0 520 140" fill="none">
+  <rect width="520" height="140" rx="16" fill="#0B1524"/>
+  <g stroke="#FFB6A3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="32" y="28" width="130" height="80" rx="8" fill="none"/>
+    <line x1="48" y1="100" x2="144" y2="100"/>
+    <line x1="96" y1="108" x2="112" y2="124"/>
+    <line x1="80" y1="124" x2="128" y2="124"/>
+  </g>
+  <text x="190" y="78" fill="#FFB6A3" font-size="32" font-family="Manrope, Segoe UI, sans-serif" font-weight="700">
+    Opsnexus Advisory
+  </text>
+  <text x="190" y="105" fill="#F3D4C9" font-size="14" font-family="Manrope, Segoe UI, sans-serif" font-weight="500">
+    Empowering Your Business Through Technology
+  </text>
+</svg>

@@ -69,25 +69,15 @@ li {
   color: var(--ink);
 }
 
-.brand strong {
-  font-size: 1.32rem;
-}
-
-.brand span {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #64748b;
-}
-
+.brand strong,
+.brand span,
 .brand-text {
-  display: inline-flex;
-  flex-direction: column;
+  display: none;
 }
 
 .logo {
-  width: 44px;
-  height: 44px;
+  width: 220px;
+  height: auto;
   display: block;
 }
 
