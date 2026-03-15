@@ -472,6 +472,58 @@ textarea:focus {
   text-align: center;
 }
 
+.site-footer {
+  margin-top: 32px;
+  background: linear-gradient(120deg, #0b1524, #10243a);
+  color: #dbe8f8;
+  padding: 36px 0 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.footer-brand {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: #dbe8f8;
+  max-width: 320px;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.footer-links a {
+  color: #dbe8f8;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 22px;
+  padding: 16px 0 22px;
+  border-top: 1px solid rgba(219, 232, 248, 0.2);
+  text-align: center;
+  color: #dbe8f8;
+}
+
 @media (max-width: 920px) {
   .nav-shell {
     flex-direction: column;
@@ -490,7 +542,8 @@ textarea:focus {
   .service-grid,
   .culture-grid,
   .split,
-  .form-grid {
+  .form-grid,
+  .footer-grid {
     grid-template-columns: 1fr;
   }
 
