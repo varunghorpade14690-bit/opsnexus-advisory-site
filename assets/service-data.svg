@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Data and SQL diagnostics">
+  <rect width="800" height="500" rx="22" fill="#f2f6fb"/>
+  <g fill="#0f4c81">
+    <rect x="140" y="280" width="70" height="140" rx="10"/>
+    <rect x="250" y="240" width="70" height="180" rx="10"/>
+    <rect x="360" y="200" width="70" height="220" rx="10"/>
+    <rect x="470" y="240" width="70" height="180" rx="10"/>
+    <rect x="580" y="170" width="70" height="250" rx="10"/>
+  </g>
+  <g stroke="#ff6b35" stroke-width="4" fill="none">
+    <path d="M140 180 C 220 130, 320 140, 400 160 C 480 180, 560 150, 650 120"/>
+  </g>
+  <g fill="#ff6b35">
+    <circle cx="140" cy="180" r="6"/>
+    <circle cx="280" cy="140" r="6"/>
+    <circle cx="400" cy="160" r="6"/>
+    <circle cx="520" cy="160" r="6"/>
+    <circle cx="650" cy="120" r="6"/>
+  </g>
+</svg>

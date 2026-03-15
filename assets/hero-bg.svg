@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Abstract enterprise systems background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1524"/>
+      <stop offset="1" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.25" r="0.5">
+      <stop offset="0" stop-color="#ffb28f" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ff6b35" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.25" stroke="#7cc4ff" stroke-width="2" fill="none">
+    <path d="M0 640 C 200 560, 340 600, 520 540 C 720 470, 960 480, 1200 420 C 1380 380, 1500 360, 1600 330"/>
+    <path d="M0 700 C 200 620, 360 640, 560 590 C 760 540, 960 520, 1200 470 C 1380 430, 1500 410, 1600 380"/>
+    <path d="M0 760 C 200 700, 360 700, 560 650 C 760 600, 980 570, 1200 520 C 1400 480, 1500 460, 1600 430"/>
+  </g>
+  <g opacity="0.2" fill="#ffffff">
+    <circle cx="220" cy="210" r="6"/>
+    <circle cx="520" cy="260" r="4"/>
+    <circle cx="840" cy="190" r="5"/>
+    <circle cx="1140" cy="260" r="4"/>
+    <circle cx="1360" cy="210" r="6"/>
+  </g>
+</svg>

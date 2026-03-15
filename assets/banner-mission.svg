@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" role="img" aria-label="Mission-driven delivery planning">
+  <defs>
+    <linearGradient id="mission" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1a2a"/>
+      <stop offset="1" stop-color="#1f4468"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="700" fill="url(#mission)"/>
+  <g fill="#ffffff" opacity="0.9">
+    <rect x="140" y="180" width="520" height="64" rx="12"/>
+    <rect x="140" y="270" width="420" height="54" rx="10"/>
+    <rect x="140" y="340" width="460" height="54" rx="10"/>
+  </g>
+  <g stroke="#ff6b35" stroke-width="6" fill="none" opacity="0.9">
+    <path d="M860 470 L980 350 L1120 420"/>
+  </g>
+  <g fill="#ff6b35">
+    <circle cx="860" cy="470" r="14"/>
+    <circle cx="980" cy="350" r="14"/>
+    <circle cx="1120" cy="420" r="14"/>
+  </g>
+</svg>

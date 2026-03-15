@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Release control and operations">
+  <rect width="800" height="500" rx="22" fill="#eef3f8"/>
+  <g fill="#ffffff" stroke="#d5dde9" stroke-width="2">
+    <rect x="120" y="110" width="560" height="70" rx="12"/>
+    <rect x="120" y="210" width="560" height="70" rx="12"/>
+    <rect x="120" y="310" width="560" height="70" rx="12"/>
+  </g>
+  <g fill="#0f4c81">
+    <rect x="150" y="135" width="180" height="22" rx="11"/>
+    <rect x="150" y="235" width="220" height="22" rx="11"/>
+    <rect x="150" y="335" width="200" height="22" rx="11"/>
+  </g>
+  <g fill="#ff6b35">
+    <circle cx="620" cy="145" r="16"/>
+    <circle cx="620" cy="245" r="16"/>
+    <circle cx="620" cy="345" r="16"/>
+  </g>
+</svg>

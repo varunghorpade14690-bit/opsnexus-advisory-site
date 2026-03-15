@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Data and analytics visualization">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f6fb"/>
+      <stop offset="1" stop-color="#e6eef8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#panel)"/>
+  <g stroke="#c2d5ea" stroke-width="2">
+    <path d="M120 340 H680"/>
+    <path d="M120 280 H680"/>
+    <path d="M120 220 H680"/>
+  </g>
+  <g fill="#0f4c81">
+    <rect x="160" y="260" width="64" height="80" rx="8"/>
+    <rect x="260" y="230" width="64" height="110" rx="8"/>
+    <rect x="360" y="190" width="64" height="150" rx="8"/>
+    <rect x="460" y="210" width="64" height="130" rx="8"/>
+    <rect x="560" y="170" width="64" height="170" rx="8"/>
+  </g>
+  <path d="M160 160 C 240 120, 320 130, 400 150 C 480 170, 560 140, 640 120" fill="none" stroke="#ff6b35" stroke-width="4"/>
+  <g fill="#ff6b35">
+    <circle cx="160" cy="160" r="6"/>
+    <circle cx="280" cy="130" r="6"/>
+    <circle cx="400" cy="150" r="6"/>
+    <circle cx="520" cy="155" r="6"/>
+    <circle cx="640" cy="120" r="6"/>
+  </g>
+</svg>
